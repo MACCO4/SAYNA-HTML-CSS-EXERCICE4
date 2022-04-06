@@ -1,0 +1,375 @@
+
+                               
+@font-face {
+    font-family: 'Far-From Homecoming';
+    src: url(/Assets/font/Far-From\ Homecoming\ Updated.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+                                            
+/*GENERAL*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+.fontSpider {
+    font-family: 'Far-From Homecoming';
+}
+
+
+                                                    /*Page1:Page A PROPOS*/
+/*Header*/
+header{
+    width: 100%;
+}
+header{
+    background-color: #b11313;
+}
+header ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+header .col-md-5 img{
+    padding-left: 2%;
+}
+/*Main*/
+        /*Section TOILE*/
+main .toile{
+    background-color: #f1c530;
+}
+.toile .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.toile .toil{
+    font-size: 90px;
+}
+        /*Section LA PETITE ANTENNE*/
+.antenne{
+    background-color: #b11313;
+}
+.antenne .container {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.antenne .size{
+    font-size: 2vw;
+}
+.antenne p{
+    color: #ffffff;
+}
+.antenne .border {
+    color: #ffffff;
+}
+.antenne .Message {
+    padding-bottom: 30%;
+}
+.antenne .Roundest{
+    border-radius: 15px;
+    margin-bottom: 4%;
+}
+.antenne .Roundest2{
+    border-radius: 15px;
+    width: 30%;
+}
+        /*Section SAYNA X MARVEL*/
+.SaynaXMarvel .size {
+    font-size: 2vw;
+}
+.SaynaXMarvel {
+    background-color: #114c92;
+    color: #ffffff;
+}
+.SaynaXMarvel .container {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.SaynaXMarvel .Roundest2{
+    border-radius: 15px;
+    width: 20%;
+}
+.SaynaXMarvel .boutton-media {
+    width: 100%;
+    text-align: center;
+}
+.SaynaXMarvel .col-md-6 {
+    padding: 2em;
+}
+/*Footer*/
+footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+footer .nav-footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+footer .form-select {
+    background-color: #b11313;
+    color: #ffffff;
+    border: 0 none;
+    width: 200px;
+}
+footer .media .logored {
+    background-color: #b11313;
+    border-radius: 75%;
+    padding: 0.3em;
+    margin: 0.3em;
+}
+
+
+                                                    /*Page2:Page BONUS*/
+
+/*Main2*/
+.main2 {
+    background-image: url('Assets/Illustration/img35.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50em;
+    color: #ffffff;
+}
+main .Heros {
+    font-size: 4em;
+}
+main span {
+    font-size: larger;
+    font-weight: bolder;
+}
+main .container-heros {
+    position: relative;
+    padding-top: 39em;
+    padding-left: 5em;
+}
+
+
+
+                                                    /*Page3:Page ADVERSAIRE*/
+/*header3*/
+.header3 {
+    background-color: #f1c530;
+}
+/*Main3*/
+.main3 .container-fluid3 {
+    background-image: url('Assets/Illustration/img7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45em;
+    color: #ffffff;
+    width: 100%;
+}
+.main3 .SuperVilains {
+    padding-top: 30em;
+}
+.main3 .card {
+    width: 300px;
+    height: 500px;
+    background-color: #f1c530;
+}
+.main3 .card-description {
+    border: 8px solid #000000;
+    border-top: none;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    background-color: #f1c530;
+    box-shadow: 0 2px 6px 2px #000000;
+}
+.main3 .container-fluid3-2 {
+    background-color: #f1c530;
+}
+/*Footer*/
+.form-select3 {
+    background-color:#f1c530;
+    color: #ffffff;
+    border: 0 none;
+    width: 200px;
+}
+.logored3 {
+    background-color:#f1c530;
+    border-radius: 75%;
+    padding: 0.3em;
+    margin: 0.3em;
+}
+
+
+                                                    /*Page4:Page HOME*/
+
+/*Main4*/
+        /*Section1 SPIDERMAN*/
+.main4 .container-fluid4 {
+    background-image: url('../Assets/Illustration/img1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 57em;
+    color: #ffffff;
+}
+.main4 .Spiderman {
+    padding-top: 25em;
+}
+.main4 .Roundest4{
+    border-radius: 15px;
+    width: 15%;
+    font-size: 11px;
+}
+.main4 .bold4 {
+    font-weight: bolder;
+    padding: 25px 0;
+}
+        /*Section2 SPIDERMAN AU CINEMA*/
+.container-fluid4-2{
+    background-color: #b11313;
+}
+.size4 {
+    font-size: 2em;
+}
+.row .mt-5 {
+    text-align: justify;
+}
+        /*Section3 DEVIENS SPIDERMAN*/
+.Deviens-Spiderman {
+    background-color: #114c92;
+}
+        /*Section4 NEWSLETTER*/
+.Newsletter {
+    background-color: #b11313;
+}
+.Newsletter audio {
+    position: absolute;
+    margin-top: 58%;
+}
+
+                                                    /*Page5:Page HEROS*/
+
+/*Header*/
+.container-fluid5 {
+    background-color: #114c92;
+}
+/*Main*/
+        /*Section1 SUPER VILAINS*/
+.Un-Heros .container-fluid-5 {
+    background-image: url('Assets/Illustration/img19.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:43em;
+    color: #ffffff;
+}
+.section1 {
+    font-size: 6em;
+}
+.box1 {
+    padding-top: 16em;
+}
+        /*Section3 FONDATIONS*/
+.FondationSection3 {
+    background-image: url('Assets/Illustration/img20.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:30em;
+    color: #ffffff;
+}
+.box2 {
+    padding-top: 8em;
+}
+.size5 {
+    font-size: 2vw;
+}
+
+        /*Section4 JAMAIS SEUL*/
+.JamaisSeul {
+    background-color: #114c92;
+    color: #ffffff;
+    padding-top: 3%;
+}
+.JamaisSeul .z-index1 {
+    z-index: 1;
+}
+.JamaisSeul .z-index2 {
+    z-index: 2;
+    margin-top: -15%;
+    margin-left: 34%;
+}
+        /*Section5 LES AVENGERS*/
+.LesAvengers .Aven1 {
+    background-color: #b11313;
+    color: #ffffff;
+    padding-bottom: 5%;
+}
+.LesAvengers .Aven1 .container {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding-top: 5%;
+}
+.LesAvengers .Aven1 .container .img27 {
+    padding-top: 15%;
+}
+.LesAvengers .Aven1 .container .Aven2 {
+    text-align: justify;
+    font-size: smaller;
+}
+        /*Section5 LES AVENGERS*/
+.container-fluid-Univ {
+    background-image: url('Assets/Illustration/img33.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50em;
+}
+.container-Univ {
+    width: 40%;
+    background-color: #114c92;
+    opacity: 0.5;
+    margin-left: 55%;
+}
+.container-Univ p {
+    text-align: justify;
+}
+.container-Univ .container {
+    color: #ffffff;
+}
+.container-Univ .Univ1 {
+    padding-top: 15%;
+}
+/*Footer*/
+.form-select5 {
+    background-color: #114c92;
+    color: #ffffff;
+    border: 0 none;
+    width: 150px;
+}
+.logored5 {
+    background-color: #114c92;
+    border-radius: 75%;
+    padding: 0.3em;
+    margin: 0.3em;
+}
+
+
+                                                /*PAGE ADVERSAIRE MOBILE*/
+@media screen and (max-width: 768px) {
+    .header3 {
+        display: none;
+    }
+    .main3 .container-fluid3 {
+        background-image: url('Assets/Illustration/img7.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        color: #ffffff;
+        width: 100%;
+    }
+    .main3 .SuperVilains {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 9%;
+    }
+    main .Heros {
+        font-size: 2em;
+    }
+    .main3 .SuperVilains span {
+        font-size: 0.6em;
+    }
+}
+
+
